@@ -1,20 +1,31 @@
-# 🎸 Musician Semantic Search
+# 🎶 MUSEARCH: Musician Semantic Web Explorer
 
-Tugas Mandiri Case Study - Matakuliah Semantik Web (CPMK 4)
+Tugas Mandiri Case Study  
+Mata Kuliah Semantik Web (CPMK 4)
 
 **Identitas Mahasiswa:**
-- **Nama:** Azriel Rokhan Syiabuddin Matdoan
-- **NIM:** 230101085
-- **Dosen Pengampu:** Fadli H. Wattiheluw, S.kom,. M.Kom
+- **Nama:** Azriel Rokhan Syiabuddin Matdoan  
+- **NIM:** 230101085  
+- **Dosen Pengampu:** Fadli H. Wattiheluw, S.Kom., M.Kom  
 
 ---
 
-## 📌 Deskripsi Proyek
-Musician Semantic Search memanfaatkan konsep **Linked Open Data (LOD)** dengan mengambil data dari **DBpedia**. Aplikasi ini memungkinkan pengguna mencari informasi band atau musisi berdasarkan nama, kemudian menampilkan data secara terstruktur menggunakan ontologi DBpedia.
+## 📝 Deskripsi Proyek
+MUSEARCH merupakan aplikasi web berbasis **Semantic Web** yang dirancang untuk melakukan pencarian informasi band dan musisi secara semantik. Aplikasi ini tidak menyimpan data secara lokal maupun menggunakan basis data konvensional, melainkan memanfaatkan **Linked Open Data** dari **DBpedia** melalui mekanisme query **SPARQL**.
 
-Data yang ditampilkan meliputi:
-- Nama band
-- Deskripsi band
+Dengan pendekatan ini, data yang ditampilkan bersifat dinamis, terstruktur, dan berasal langsung dari knowledge graph DBpedia yang diekstraksi dari Wikipedia.
+
+---
+
+## 🚀 Fitur Aplikasi
+- Pencarian band atau musisi secara real-time
+- Pengambilan data langsung dari **DBpedia SPARQL Endpoint**
+- Penyaringan data menggunakan ontologi semantik
+- Menampilkan informasi utama musisi/band secara terstruktur
+
+Informasi yang ditampilkan meliputi:
+- Nama band atau musisi
+- Deskripsi singkat (abstract)
 - Genre musik
 - Kota asal
 - Tahun aktif
@@ -22,4 +33,30 @@ Data yang ditampilkan meliputi:
 
 ---
 
-## 🗂️ Struktur Folder
+## 🛠️ Teknologi dan Sumber Data
+- **Sumber Data:** DBpedia Knowledge Graph  
+- **Bahasa Query:** SPARQL  
+- **Frontend:** HTML5, CSS3, JavaScript (Vanilla)  
+- **Ontologi:** DBpedia Ontology (`dbo`)  
+- **Font:** Google Fonts  
+
+---
+
+## 🧠 Konsep Semantic Web yang Digunakan
+- **Linked Open Data (LOD)**
+- **Resource Description Framework (RDF)**
+- **SPARQL Query Language**
+- **DBpedia Ontology**
+
+Ontologi utama yang digunakan:
+- `dbo:Band`
+- `dbo:MusicalArtist`
+- `dbo:genre`
+- `dbo:hometown`
+- `dbo:activeYearsStartYear`
+- `dbo:abstract`
+- `dbo:thumbnail`
+
+---
+
+
