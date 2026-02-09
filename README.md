@@ -1,14 +1,11 @@
-# 🎵 Musician Semantic Search
+# 🎸 Musician Semantic Search
 
-Aplikasi web sederhana berbasis **Semantic Web** yang digunakan untuk mencari informasi band atau musisi menggunakan **DBpedia** dan **SPARQL**.
+Tugas Mandiri Case Study - Matakuliah Semantik Web (CPMK 4)
 
-Project ini dibuat untuk memenuhi **Tugas Tambahan (Tugas 6)** mata kuliah **Semantik Web**.
-
----
-
-## 👨‍🏫 Informasi Mata Kuliah
-- **Mata Kuliah** : Semantik Web  
-- **Dosen** : Fadli H. Wattiheluw, S.Kom., M.Kom  
+**Identitas Mahasiswa:**
+- **Nama:** Azriel Rokhan Syiabuddin Matdoan
+- **NIM:** 230101085
+- **Dosen Pengampu:** Fadli H. Wattiheluw, S.kom,. M.Kom
 
 ---
 
